@@ -1,5 +1,3 @@
-const WHATSAPP_NUMBER = "5574999431435";
-
 const menuToggle = document.getElementById("menu-toggle");
 const mainNav = document.getElementById("main-nav");
 
@@ -143,8 +141,9 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
     const name = card?.dataset.product || "Produto";
     const price = parseFloat(card?.dataset.price || "0");
     const image = card.querySelector("img")?.getAttribute("src") || "";
+    const link = card?.dataset.link || "";
 
-    addToCart({ name, price, image });
+    addToCart({ name, price, image, link });
     showToast(`${name} adicionado ao carrinho`);
   });
 });
@@ -152,17 +151,18 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
 cartCheckoutBtn.addEventListener("click", () => {
   if (cart.length === 0) return;
 
-  let message = "Olá! Quero fazer um pedido na D'AURI:%0A%0A";
-  let total = 0;
+  // Como o link de pagamento do Mercado Pago é fixo por produto,
+  // abrimos um link por produto diferente no carrinho (independente da quantidade).
+  const linksUnicos = [...new Set(cart.map((item) => item.link))].filter(Boolean);
 
-  cart.forEach((item) => {
-    const subtotal = item.price * item.qty;
-    total += subtotal;
-    message += `• ${item.qty}x ${item.name} - ${formatBRL(subtotal)}%0A`;
+  if (linksUnicos.length === 0) {
+    showToast("Link de pagamento não configurado para esse produto.");
+    return;
+  }
+
+  linksUnicos.forEach((link) => {
+    window.open(link, "_blank");
   });
 
-  message += `%0A*Total: ${formatBRL(total)}*`;
-
-  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
-  window.open(url, "_blank");
+  closeCart();
 });
