@@ -38,6 +38,24 @@ Este é o site oficial, feito do zero em **HTML, CSS e JavaScript puros**, sem f
 | 💳 **Pagamento rápido** | Checkout seguro via link do Mercado Pago |
 | 🖤 **Identidade forte** | Preto e branco em todas as páginas |
 
+## 📸 Preview
+
+<div align="center">
+
+| Home | Catálogo | Mobile |
+|:---:|:---:|:---:|
+| <img src="img/preview-home.png" width="260" alt="Home"> | <img src="img/preview-catalogo.png" width="260" alt="Catálogo"> | <img src="img/preview-mobile.png" width="130" alt="Versão mobile"> |
+
+</div>
+
+## 🎨 Paleta
+
+| Cor | Hex | Uso |
+|:---:|:---:|---|
+| ![#000000](https://img.shields.io/badge/-%20%20%20%20%20-000000?style=flat-square) | `#000000` | Fundo e textos principais |
+| ![#3A3A3A](https://img.shields.io/badge/-%20%20%20%20%20-3A3A3A?style=flat-square) | `#3A3A3A` | Detalhes e elementos secundários |
+| ![#FFFFFF](https://img.shields.io/badge/-%20%20%20%20%20-FFFFFF?style=flat-square) | `#FFFFFF` | Destaques e contraste |
+
 ## 🛠️ Stack
 
 ```text
