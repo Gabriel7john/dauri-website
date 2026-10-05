@@ -1,24 +1,98 @@
-D'AURI
+<div align="center">
 
-Streetwear oversized em preto e branco.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:3a3a3a&height=220&section=header&text=D%27AURI&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Streetwear%20oversized%20em%20preto%20e%20branco&descAlignY=60&descSize=18" alt="D'AURI" />
 
-Site oficial da D'AURI, minha marca de roupas. Uma loja online simples e direta, feita do zero com HTML, CSS e JavaScript puros, com visual minimalista que combina com a identidade da marca.
+<a href="https://github.com/seu-usuario/seu-repositorio">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A0A0A0&center=true&vCenter=true&width=520&lines=Oversized.;Preto+e+branco.;Feito+do+zero.;Streetwear+com+atitude." alt="Typing SVG" />
+</a>
 
-🔗 Site: [adicione o link aqui]
+<br/>
 
-Sobre a marca
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white)
+![Mercado Pago](https://img.shields.io/badge/Mercado%20Pago-000000?style=for-the-badge&logo=mercadopago&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20evolu%C3%A7%C3%A3o-ffffff?style=for-the-badge&labelColor=000000)
 
-A D'AURI nasceu com a ideia de unir conforto e atitude: peças oversized, estampas marcantes e uma paleta preto e branco que combina com tudo. O site foi pensado para que a roupa seja a protagonista.
+<br/>
 
-Funcionalidades
-Página inicial com hero de destaque e foto de modelo
-Catálogo de produtos: camisetas oversized (branca e preta com estampa nas costas), moletom oversized e novas peças a caminho
-Layout responsivo, pensado para celular e desktop
-Pagamento via Mercado Pago por link de pagamento
-Identidade visual preto e branco, consistente em todas as páginas
-Tecnologias
-Camada	Tecnologia
-Estrutura	HTML5
-Estilo	CSS3
-Interatividade	JavaScript (vanilla, sem framework)
-Pagamentos	Mercado Pago
+### 🖤 [**VER O SITE AO VIVO**](https://adicione-o-link-aqui) 🤍
+
+</div>
+
+---
+
+## 🔥 O que é a D'AURI
+
+Conforto com atitude. A **D'AURI** é a minha marca de roupas: peças **oversized**, estampas marcantes e uma paleta **preto e branco** que combina com tudo.
+
+Este é o site oficial, feito do zero em **HTML, CSS e JavaScript puros**, sem framework. O visual é minimalista de propósito: aqui quem aparece é a roupa.
+
+## ✨ Destaques
+
+| | |
+|---|---|
+| 🎬 **Hero de impacto** | Abertura com foto de modelo e a cara da marca |
+| 👕 **Catálogo** | Camiseta oversized branca, camiseta preta com estampa nas costas e moletom oversized |
+| 📱 **Responsivo** | Funciona bem no celular e no desktop |
+| 💳 **Pagamento rápido** | Checkout seguro via link do Mercado Pago |
+| 🖤 **Identidade forte** | Preto e branco em todas as páginas |
+
+## 🛠️ Stack
+
+```text
+HTML5  →  estrutura
+CSS3   →  estilo e responsividade
+JS     →  interatividade (vanilla, zero framework)
+Mercado Pago  →  pagamentos
+```
+
+## 🚀 Rodando localmente
+
+```bash
+# clone o projeto
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# entre na pasta
+cd seu-repositorio
+
+# abra o index.html no navegador
+# (ou use o Live Server do VS Code)
+```
+
+Sem dependências e sem build: abriu o `index.html`, tá rodando.
+
+## 📁 Estrutura
+
+```text
+D-AURI/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── img/
+│   └── fotos dos produtos e hero
+└── README.md
+```
+
+## 🗺️ Roadmap
+
+- [ ] Novos modelos e produtos no catálogo
+- [ ] Backend para gerenciar pedidos
+- [ ] Integração do pagamento com o backend
+
+## 👨‍💻 Autor
+
+Feito por **Gabriel Santana**
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a3a3a,100:000000&height=120&section=footer" alt="" />
+
+**D'AURI © 2026**
+
+</div>
